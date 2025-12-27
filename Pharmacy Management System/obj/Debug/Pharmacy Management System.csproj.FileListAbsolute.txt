@@ -1,0 +1,30 @@
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.config
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\bin\Debug\Pharmacy Management System.pdb
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.AssemblyReference.cache
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.LoginForm.resources
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Properties.Resources.resources
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.GenerateResource.cache
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.CoreCompileInputs.cache
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy Management System.exe
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy Management System.pdb
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy Management System.exe.config
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.SignupForm.resources
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Dashboard.resources
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.MedecineForm.resources
+C:\Users\nurea\source\repos\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.StaffForm.resources
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.config
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\bin\Debug\Pharmacy Management System.pdb
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.AssemblyReference.cache
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\obj\Debug\Pharmacy Management System.exe.config
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Dashboard.resources
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.LoginForm.resources
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.MedecineForm.resources
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Properties.Resources.resources
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.SignupForm.resources
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.StaffForm.resources
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.GenerateResource.cache
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.CoreCompileInputs.cache
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\obj\Debug\Pharmacy Management System.exe
+C:\Users\nurea\OneDrive\Desktop\C#\New folder\Pharmacy Management System\obj\Debug\Pharmacy Management System.pdb

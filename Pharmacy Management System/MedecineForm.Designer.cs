@@ -41,6 +41,7 @@
             this.lbQuantity = new System.Windows.Forms.Label();
             this.lbName = new System.Windows.Forms.Label();
             this.cmbType = new System.Windows.Forms.ComboBox();
+            this.btnBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMed)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +49,7 @@
             // 
             this.btSEARCH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btSEARCH.ForeColor = System.Drawing.Color.Navy;
-            this.btSEARCH.Location = new System.Drawing.Point(575, 194);
+            this.btSEARCH.Location = new System.Drawing.Point(693, 194);
             this.btSEARCH.Name = "btSEARCH";
             this.btSEARCH.Size = new System.Drawing.Size(84, 36);
             this.btSEARCH.TabIndex = 33;
@@ -58,21 +59,20 @@
             // dgvMed
             // 
             this.dgvMed.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMed.Location = new System.Drawing.Point(66, 259);
+            this.dgvMed.Location = new System.Drawing.Point(34, 228);
             this.dgvMed.Name = "dgvMed";
             this.dgvMed.ReadOnly = true;
             this.dgvMed.RowHeadersWidth = 51;
             this.dgvMed.RowTemplate.Height = 24;
             this.dgvMed.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvMed.Size = new System.Drawing.Size(617, 169);
+            this.dgvMed.Size = new System.Drawing.Size(635, 200);
             this.dgvMed.TabIndex = 32;
-            this.dgvMed.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMed_CellContentClick);
             // 
             // btSave
             // 
             this.btSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btSave.ForeColor = System.Drawing.Color.Navy;
-            this.btSave.Location = new System.Drawing.Point(575, 23);
+            this.btSave.Location = new System.Drawing.Point(693, 25);
             this.btSave.Name = "btSave";
             this.btSave.Size = new System.Drawing.Size(84, 36);
             this.btSave.TabIndex = 31;
@@ -84,7 +84,7 @@
             // 
             this.btEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btEdit.ForeColor = System.Drawing.Color.Navy;
-            this.btEdit.Location = new System.Drawing.Point(575, 79);
+            this.btEdit.Location = new System.Drawing.Point(693, 81);
             this.btEdit.Name = "btEdit";
             this.btEdit.Size = new System.Drawing.Size(84, 36);
             this.btEdit.TabIndex = 30;
@@ -95,7 +95,7 @@
             // 
             this.btDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btDelete.ForeColor = System.Drawing.Color.Navy;
-            this.btDelete.Location = new System.Drawing.Point(575, 136);
+            this.btDelete.Location = new System.Drawing.Point(693, 127);
             this.btDelete.Name = "btDelete";
             this.btDelete.Size = new System.Drawing.Size(84, 36);
             this.btDelete.TabIndex = 29;
@@ -107,21 +107,21 @@
             // 
             this.txbName.Location = new System.Drawing.Point(166, 58);
             this.txbName.Name = "txbName";
-            this.txbName.Size = new System.Drawing.Size(216, 22);
+            this.txbName.Size = new System.Drawing.Size(338, 22);
             this.txbName.TabIndex = 28;
             // 
             // txbPrice
             // 
             this.txbPrice.Location = new System.Drawing.Point(166, 134);
             this.txbPrice.Name = "txbPrice";
-            this.txbPrice.Size = new System.Drawing.Size(216, 22);
+            this.txbPrice.Size = new System.Drawing.Size(338, 22);
             this.txbPrice.TabIndex = 26;
             // 
             // txbQuantity
             // 
             this.txbQuantity.Location = new System.Drawing.Point(166, 95);
             this.txbQuantity.Name = "txbQuantity";
-            this.txbQuantity.Size = new System.Drawing.Size(216, 22);
+            this.txbQuantity.Size = new System.Drawing.Size(338, 22);
             this.txbQuantity.TabIndex = 25;
             // 
             // lbType
@@ -167,10 +167,32 @@
             // cmbType
             // 
             this.cmbType.FormattingEnabled = true;
+            this.cmbType.Items.AddRange(new object[] {
+            "Tablet",
+            "Capsule",
+            "Syrup",
+            "Injection",
+            "Ointment",
+            "Cream",
+            "Drops",
+            "Inhaler"});
             this.cmbType.Location = new System.Drawing.Point(166, 23);
             this.cmbType.Name = "cmbType";
-            this.cmbType.Size = new System.Drawing.Size(216, 24);
+            this.cmbType.Size = new System.Drawing.Size(338, 24);
             this.cmbType.TabIndex = 34;
+            // 
+            // btnBack
+            // 
+            this.btnBack.AutoSize = true;
+            this.btnBack.BackColor = System.Drawing.Color.SkyBlue;
+            this.btnBack.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Location = new System.Drawing.Point(693, 390);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(94, 47);
+            this.btnBack.TabIndex = 56;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = false;
             // 
             // MedecineForm
             // 
@@ -178,6 +200,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.cmbType);
             this.Controls.Add(this.btSEARCH);
             this.Controls.Add(this.dgvMed);
@@ -215,5 +238,6 @@
         private System.Windows.Forms.Label lbName;
         private System.Windows.Forms.ComboBox cmbType;
         private System.Windows.Forms.DataGridView dgvMed;
+        private System.Windows.Forms.Button btnBack;
     }
 }

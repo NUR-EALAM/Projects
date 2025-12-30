@@ -42,11 +42,7 @@ namespace Pharmacy_Management_System
             }
             load_products();
         }
-        private void dgvMed_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-
-        }
+       
         private void load_products() { 
             DataTable dt = newdb.readAll("SELECT * FROM Medicine");
             if (dt != null)
@@ -107,5 +103,7 @@ namespace Pharmacy_Management_System
             txbQuantity.Clear();
             txbPrice.Clear();
         }
+
+        
     } 
 }

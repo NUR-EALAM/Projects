@@ -45,3 +45,4 @@ E:\project\Projects\Pharmacy Management System\bin\Debug\Pharmacy Management Sys
 E:\project\Projects\Pharmacy Management System\bin\Debug\Pharmacy Management System.pdb
 E:\project\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.add.resources
 E:\project\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Manager_DB.resources
+E:\project\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Staff_DBcs.resources

@@ -85,6 +85,12 @@
     <Compile Include="SignupForm.Designer.cs">
       <DependentUpon>SignupForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Staff DBcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff DBcs.Designer.cs">
+      <DependentUpon>Staff DBcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Staff.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,9 @@
     </Compile>
     <EmbeddedResource Include="SignupForm.resx">
       <DependentUpon>SignupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff DBcs.resx">
+      <DependentUpon>Staff DBcs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Staff.resx">
       <DependentUpon>Staff.cs</DependentUpon>

@@ -40,7 +40,7 @@ namespace Pharmacy_Management_System
                 MessageBox.Show("Medicine added successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
-
+            load_products();
         }
         private void dgvMed_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

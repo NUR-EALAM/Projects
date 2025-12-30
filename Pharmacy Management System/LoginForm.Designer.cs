@@ -36,7 +36,6 @@
             this.txbUsername = new System.Windows.Forms.TextBox();
             this.txbPassword = new System.Windows.Forms.TextBox();
             this.llbForgot = new System.Windows.Forms.LinkLabel();
-            this.btSignup = new System.Windows.Forms.Button();
             this.btLogin = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -111,18 +110,6 @@
             this.llbForgot.TabStop = true;
             this.llbForgot.Text = "Forgot your password?";
             // 
-            // btSignup
-            // 
-            this.btSignup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btSignup.ForeColor = System.Drawing.Color.Navy;
-            this.btSignup.Location = new System.Drawing.Point(35, 381);
-            this.btSignup.Name = "btSignup";
-            this.btSignup.Size = new System.Drawing.Size(84, 36);
-            this.btSignup.TabIndex = 8;
-            this.btSignup.Text = "Sign up";
-            this.btSignup.UseVisualStyleBackColor = true;
-            this.btSignup.Click += new System.EventHandler(this.btSignup_Click);
-            // 
             // btLogin
             // 
             this.btLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -153,7 +140,6 @@
             this.ClientSize = new System.Drawing.Size(662, 559);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btLogin);
-            this.Controls.Add(this.btSignup);
             this.Controls.Add(this.llbForgot);
             this.Controls.Add(this.txbPassword);
             this.Controls.Add(this.txbUsername);
@@ -179,7 +165,6 @@
         private System.Windows.Forms.TextBox txbUsername;
         private System.Windows.Forms.TextBox txbPassword;
         private System.Windows.Forms.LinkLabel llbForgot;
-        private System.Windows.Forms.Button btSignup;
         private System.Windows.Forms.Button btLogin;
         private System.Windows.Forms.PictureBox pictureBox1;
     }

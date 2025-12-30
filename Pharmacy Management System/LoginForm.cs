@@ -41,10 +41,10 @@ namespace Pharmacy_Management_System
             else  if (dr != null)
             {
                 this.Visible = false;
-                StaffForm staffForm = new StaffForm();
-                staffForm.Visible = true;
-                staffForm.Show();
-                MessageBox.Show("Login successful- Stuff", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Manager_DB manager_DB= new Manager_DB();
+                manager_DB.Visible = true;
+                manager_DB.Show();
+               // MessageBox.Show("Login successful- Stuff", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
             else if (dr == null)

@@ -32,7 +32,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
-            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
             this.dgvProductList = new System.Windows.Forms.DataGridView();
             this.productId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.productName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,15 +41,15 @@
             this.category = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.lblSearch = new System.Windows.Forms.Label();
-            this.cmbCategory = new System.Windows.Forms.ComboBox();
-            this.lblTitel = new System.Windows.Forms.Label();
-            this.txtProductName = new System.Windows.Forms.TextBox();
-            this.txtPrice = new System.Windows.Forms.TextBox();
-            this.txtQuantity = new System.Windows.Forms.TextBox();
+            this.cmbTitel = new System.Windows.Forms.ComboBox();
+            this.lblRole = new System.Windows.Forms.Label();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtNumber = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
             this.lblNamber = new System.Windows.Forms.Label();
             this.lblAddras = new System.Windows.Forms.Label();
-            this.txtProductID = new System.Windows.Forms.TextBox();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.lblID = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductList)).BeginInit();
             this.SuspendLayout();
@@ -66,6 +66,7 @@
             this.btnSave.TabIndex = 59;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnDelete
             // 
@@ -106,18 +107,19 @@
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = false;
             // 
-            // btnLogout
+            // btnBack
             // 
-            this.btnLogout.AutoSize = true;
-            this.btnLogout.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnLogout.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.Location = new System.Drawing.Point(816, 25);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(4);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(225, 47);
-            this.btnLogout.TabIndex = 55;
-            this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnBack.AutoSize = true;
+            this.btnBack.BackColor = System.Drawing.Color.SkyBlue;
+            this.btnBack.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Location = new System.Drawing.Point(816, 25);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(225, 47);
+            this.btnBack.TabIndex = 55;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // dgvProductList
             // 
@@ -207,57 +209,57 @@
             this.lblSearch.TabIndex = 52;
             this.lblSearch.Text = "Search";
             // 
-            // cmbCategory
+            // cmbTitel
             // 
-            this.cmbCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbCategory.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbCategory.FormattingEnabled = true;
-            this.cmbCategory.Items.AddRange(new object[] {
+            this.cmbTitel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbTitel.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbTitel.FormattingEnabled = true;
+            this.cmbTitel.Items.AddRange(new object[] {
             "Manager",
             "Employ"});
-            this.cmbCategory.Location = new System.Drawing.Point(267, 271);
-            this.cmbCategory.Margin = new System.Windows.Forms.Padding(4);
-            this.cmbCategory.Name = "cmbCategory";
-            this.cmbCategory.Size = new System.Drawing.Size(452, 28);
-            this.cmbCategory.TabIndex = 51;
+            this.cmbTitel.Location = new System.Drawing.Point(267, 271);
+            this.cmbTitel.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbTitel.Name = "cmbTitel";
+            this.cmbTitel.Size = new System.Drawing.Size(452, 28);
+            this.cmbTitel.TabIndex = 51;
             // 
-            // lblTitel
+            // lblRole
             // 
-            this.lblTitel.AutoSize = true;
-            this.lblTitel.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitel.Location = new System.Drawing.Point(72, 281);
-            this.lblTitel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblTitel.Name = "lblTitel";
-            this.lblTitel.Size = new System.Drawing.Size(45, 20);
-            this.lblTitel.TabIndex = 50;
-            this.lblTitel.Text = "Titel";
+            this.lblRole.AutoSize = true;
+            this.lblRole.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRole.Location = new System.Drawing.Point(72, 281);
+            this.lblRole.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblRole.Name = "lblRole";
+            this.lblRole.Size = new System.Drawing.Size(44, 20);
+            this.lblRole.TabIndex = 50;
+            this.lblRole.Text = "Role";
             // 
-            // txtProductName
+            // txtName
             // 
-            this.txtProductName.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProductName.Location = new System.Drawing.Point(267, 86);
-            this.txtProductName.Margin = new System.Windows.Forms.Padding(4);
-            this.txtProductName.Name = "txtProductName";
-            this.txtProductName.Size = new System.Drawing.Size(452, 27);
-            this.txtProductName.TabIndex = 49;
+            this.txtName.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Location = new System.Drawing.Point(267, 86);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(452, 27);
+            this.txtName.TabIndex = 49;
             // 
-            // txtPrice
+            // txtNumber
             // 
-            this.txtPrice.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrice.Location = new System.Drawing.Point(267, 148);
-            this.txtPrice.Margin = new System.Windows.Forms.Padding(4);
-            this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(452, 27);
-            this.txtPrice.TabIndex = 48;
+            this.txtNumber.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumber.Location = new System.Drawing.Point(267, 148);
+            this.txtNumber.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNumber.Name = "txtNumber";
+            this.txtNumber.Size = new System.Drawing.Size(452, 27);
+            this.txtNumber.TabIndex = 48;
             // 
-            // txtQuantity
+            // txtAddress
             // 
-            this.txtQuantity.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQuantity.Location = new System.Drawing.Point(267, 209);
-            this.txtQuantity.Margin = new System.Windows.Forms.Padding(4);
-            this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(452, 27);
-            this.txtQuantity.TabIndex = 47;
+            this.txtAddress.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAddress.Location = new System.Drawing.Point(267, 209);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(452, 27);
+            this.txtAddress.TabIndex = 47;
             // 
             // lblName
             // 
@@ -293,15 +295,14 @@
             this.lblAddras.Text = "Addras";
             this.lblAddras.UseMnemonic = false;
             // 
-            // txtProductID
+            // txtID
             // 
-            this.txtProductID.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProductID.Location = new System.Drawing.Point(267, 25);
-            this.txtProductID.Margin = new System.Windows.Forms.Padding(4);
-            this.txtProductID.Name = "txtProductID";
-            this.txtProductID.ReadOnly = true;
-            this.txtProductID.Size = new System.Drawing.Size(452, 27);
-            this.txtProductID.TabIndex = 43;
+            this.txtID.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtID.Location = new System.Drawing.Point(267, 25);
+            this.txtID.Margin = new System.Windows.Forms.Padding(4);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(452, 27);
+            this.txtID.TabIndex = 43;
             // 
             // lblID
             // 
@@ -324,19 +325,19 @@
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnRefresh);
-            this.Controls.Add(this.btnLogout);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.dgvProductList);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.lblSearch);
-            this.Controls.Add(this.cmbCategory);
-            this.Controls.Add(this.lblTitel);
-            this.Controls.Add(this.txtProductName);
-            this.Controls.Add(this.txtPrice);
-            this.Controls.Add(this.txtQuantity);
+            this.Controls.Add(this.cmbTitel);
+            this.Controls.Add(this.lblRole);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.txtNumber);
+            this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblNamber);
             this.Controls.Add(this.lblAddras);
-            this.Controls.Add(this.txtProductID);
+            this.Controls.Add(this.txtID);
             this.Controls.Add(this.lblID);
             this.Name = "add";
             this.Text = "ADD";
@@ -352,7 +353,7 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnRefresh;
-        private System.Windows.Forms.Button btnLogout;
+        private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.DataGridView dgvProductList;
         private System.Windows.Forms.DataGridViewTextBoxColumn productId;
         private System.Windows.Forms.DataGridViewTextBoxColumn productName;
@@ -361,15 +362,15 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn category;
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Label lblSearch;
-        private System.Windows.Forms.ComboBox cmbCategory;
-        private System.Windows.Forms.Label lblTitel;
-        private System.Windows.Forms.TextBox txtProductName;
-        private System.Windows.Forms.TextBox txtPrice;
-        private System.Windows.Forms.TextBox txtQuantity;
+        private System.Windows.Forms.ComboBox cmbTitel;
+        private System.Windows.Forms.Label lblRole;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtNumber;
+        private System.Windows.Forms.TextBox txtAddress;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label lblNamber;
         private System.Windows.Forms.Label lblAddras;
-        private System.Windows.Forms.TextBox txtProductID;
+        private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Label lblID;
     }
 }

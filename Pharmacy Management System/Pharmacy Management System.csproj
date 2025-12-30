@@ -65,6 +65,12 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manager DB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager DB.Designer.cs">
+      <DependentUpon>Manager DB.cs</DependentUpon>
+    </Compile>
     <Compile Include="MedecineForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager DB.resx">
+      <DependentUpon>Manager DB.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MedecineForm.resx">
       <DependentUpon>MedecineForm.cs</DependentUpon>

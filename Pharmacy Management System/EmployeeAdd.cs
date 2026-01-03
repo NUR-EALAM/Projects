@@ -31,19 +31,20 @@ namespace Pharmacy_Management_System
         db newdb = new db();
         private void btnSave_Click(object sender, EventArgs e)
         {
-            string SId = txtID.Text;
-            string Sname = txtName.Text;
-            string Snumber = txtNumber.Text;
-            string Saddras = txtAddress.Text;
-            string Srole = cmbTitel.Text;
-            if (txtID.Text == null || txtName.Text == null || txtNumber == null || txtAddress == null || cmbTitel.Text == null)
+            string EId = txtID.Text;
+            string Ename = txtName.Text;
+            string Enumber = txtNumber.Text;
+            string Epassword = txtPassword.Text;
+            string Eemail = txtEmail.Text;
+            string Erole = cmbTitel.Text;
+            if (txtID.Text == null || txtName.Text == null || txtNumber.Text == null || txtEmail.Text == null || cmbTitel.Text == null || txtPassword.Text == null )
             {
                 MessageBox.Show("Please fill all the fields", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             else
             {
-                string query = "insert into Staff (SId, Sname , Snumber, Saddras, Srole) values ('" + SId + "','" + Sname + "','" + Snumber + "', '" + Saddras + "','" + Srole + "')";
+                string query = "insert into user_data (EId, Ename , Enumber, Epassword, Eemail, Erole) values ('" + EId + "','" + Ename + "','" + Enumber + "','" + Epassword + "', '" + Eemail + "','" + Erole + "')";
                 newdb.write(query);
                 MessageBox.Show("staff added successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -54,7 +55,7 @@ namespace Pharmacy_Management_System
         }
         private void load_products()
         {
-            DataTable dt = newdb.readAll("SELECT * FROM Staff");
+            DataTable dt = newdb.readAll("SELECT * FROM user_data");
             if (dt != null)
             {
                 dgvAdd.AutoGenerateColumns = true;
@@ -62,7 +63,8 @@ namespace Pharmacy_Management_System
                 dgvAdd.Columns[0].HeaderText = "Id";
                 dgvAdd.Columns[1].HeaderText = "name";
                 dgvAdd.Columns[2].HeaderText = "number";
-                dgvAdd.Columns[3].HeaderText = "adress";
+                dgvAdd.Columns[2].HeaderText = "password";
+                dgvAdd.Columns[3].HeaderText = "Email";
                 dgvAdd.Columns[4].HeaderText = "Role";
             }
 
@@ -75,10 +77,10 @@ namespace Pharmacy_Management_System
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            string SId = txtID.Text;
-            string query = "DELETE FROM Staff WHERE SId = '" + SId + "'";
+            string EId = txtID.Text;
+            string query = "DELETE FROM user_data WHERE EId = '" + EId + "'";
             newdb.write(query);
-            MessageBox.Show("Staff deleted successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Employee deleted successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             load_products();
         }
 
@@ -87,6 +89,11 @@ namespace Pharmacy_Management_System
             load_products();
         }
 
-        
+        private void EmployeeAdd_Load(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }

@@ -1,61 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\",
+  "WorkspaceRootPath": "E:\\New folder\\Projects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|c:\\users\\nurea\\onedrive\\desktop\\c#\\projects\\pharmacy management system\\employeeadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\employeeadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\pharmacy management system\\staff dbcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\staff dbcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\pharmacy management system\\staffdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\staffdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\pharmacy management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\pharmacy management system\\employeeadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\employeeadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|c:\\users\\nurea\\onedrive\\desktop\\c#\\projects\\pharmacy management system\\employeeadd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\employeeadd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\pharmacy management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\pharmacy management system\\admin db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\admin db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\pharmacy management system\\admin db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\admin db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\pharmacy management system\\manager db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\manager db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\pharmacy management system\\medecineform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|E:\\New folder\\Projects\\pharmacy management system\\medecineform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\medecineform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\pharmacy management system\\medecineform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|E:\\New folder\\Projects\\pharmacy management system\\medecineform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\medecineform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\pharmacy management system\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|e:\\new folder\\projects\\pharmacy management system\\employeeadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\employeeadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|E:\\New folder\\Projects\\pharmacy management system\\employeeadd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\employeeadd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|E:\\New folder\\Projects\\pharmacy management system\\employeeadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\employeeadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|E:\\New folder\\Projects\\pharmacy management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|E:\\New folder\\Projects\\pharmacy management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|E:\\New folder\\Projects\\pharmacy management system\\staff dbcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\staff dbcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|E:\\New folder\\Projects\\pharmacy management system\\staffdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\staffdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|E:\\New folder\\Projects\\pharmacy management system\\admin db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\admin db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|E:\\New folder\\Projects\\pharmacy management system\\admin db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\admin db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|E:\\New folder\\Projects\\pharmacy management system\\manager db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\manager db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|E:\\New folder\\Projects\\pharmacy management system\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\pharmacy management system\\medecineform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|E:\\New folder\\Projects\\pharmacy management system\\medecineform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BD29E1B-11EC-4DDF-8614-310606883FAC}|Pharmacy Management System\\Pharmacy Management System.csproj|solutionrelative:pharmacy management system\\medecineform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -69,41 +69,95 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "EmployeeAdd.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\EmployeeAdd.Designer.cs",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\EmployeeAdd.Designer.cs",
               "RelativeDocumentMoniker": "Pharmacy Management System\\EmployeeAdd.Designer.cs",
-              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\EmployeeAdd.Designer.cs",
+              "ToolTip": "E:\\New folder\\Projects\\Pharmacy Management System\\EmployeeAdd.Designer.cs",
               "RelativeToolTip": "Pharmacy Management System\\EmployeeAdd.Designer.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAvwF0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAtwF8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-03T09:58:15.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Pharmacy Management System\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\LoginForm.cs [Design]",
-              "RelativeToolTip": "Pharmacy Management System\\LoginForm.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "EmployeeAdd.cs",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\EmployeeAdd.cs",
+              "RelativeDocumentMoniker": "Pharmacy Management System\\EmployeeAdd.cs",
+              "ToolTip": "E:\\New folder\\Projects\\Pharmacy Management System\\EmployeeAdd.cs",
+              "RelativeToolTip": "Pharmacy Management System\\EmployeeAdd.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAlwGAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T12:05:58.84Z",
+              "WhenOpened": "2025-12-31T12:01:59.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeAdd.cs [Design]",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\EmployeeAdd.cs",
+              "RelativeDocumentMoniker": "Pharmacy Management System\\EmployeeAdd.cs",
+              "ToolTip": "E:\\New folder\\Projects\\Pharmacy Management System\\EmployeeAdd.cs [Design]",
+              "RelativeToolTip": "Pharmacy Management System\\EmployeeAdd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T11:51:47.635Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "Staff DBcs.cs [Design]",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\Staff DBcs.cs",
+              "RelativeDocumentMoniker": "Pharmacy Management System\\Staff DBcs.cs",
+              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\Staff DBcs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T13:24:47.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MedecineForm.cs [Design]",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\MedecineForm.cs",
+              "RelativeDocumentMoniker": "Pharmacy Management System\\MedecineForm.cs",
+              "ToolTip": "E:\\New folder\\Projects\\Pharmacy Management System\\MedecineForm.cs [Design]",
+              "RelativeToolTip": "Pharmacy Management System\\MedecineForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:44:25.87Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MedecineForm.cs",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\MedecineForm.cs",
+              "RelativeDocumentMoniker": "Pharmacy Management System\\MedecineForm.cs",
+              "ToolTip": "E:\\New folder\\Projects\\Pharmacy Management System\\MedecineForm.cs",
+              "RelativeToolTip": "Pharmacy Management System\\MedecineForm.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAtwIcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T12:07:51.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StaffDashboard.cs [Design]",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\StaffDashboard.cs",
+              "RelativeDocumentMoniker": "Pharmacy Management System\\StaffDashboard.cs",
+              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\StaffDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T07:06:12.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\LoginForm.cs",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\LoginForm.cs",
               "RelativeDocumentMoniker": "Pharmacy Management System\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\LoginForm.cs",
+              "ToolTip": "E:\\New folder\\Projects\\Pharmacy Management System\\LoginForm.cs",
               "RelativeToolTip": "Pharmacy Management System\\LoginForm.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAvwDcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -112,119 +166,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeAdd.cs",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\EmployeeAdd.cs",
-              "RelativeDocumentMoniker": "Pharmacy Management System\\EmployeeAdd.cs",
-              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\EmployeeAdd.cs",
-              "RelativeToolTip": "Pharmacy Management System\\EmployeeAdd.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAjwBgAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Pharmacy Management System\\LoginForm.cs",
+              "ToolTip": "E:\\New folder\\Projects\\Pharmacy Management System\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Pharmacy Management System\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T12:01:59.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeAdd.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\EmployeeAdd.cs",
-              "RelativeDocumentMoniker": "Pharmacy Management System\\EmployeeAdd.cs",
-              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\EmployeeAdd.cs [Design]",
-              "RelativeToolTip": "Pharmacy Management System\\EmployeeAdd.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T11:51:47.635Z",
+              "WhenOpened": "2025-12-31T12:05:58.84Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StaffDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\StaffDashboard.cs",
-              "RelativeDocumentMoniker": "Pharmacy Management System\\StaffDashboard.cs",
-              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\StaffDashboard.cs [Design]",
-              "RelativeToolTip": "Pharmacy Management System\\StaffDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T07:06:12.408Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Staff DBcs.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\Staff DBcs.cs",
-              "RelativeDocumentMoniker": "Pharmacy Management System\\Staff DBcs.cs",
-              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\Staff DBcs.cs [Design]",
-              "RelativeToolTip": "Pharmacy Management System\\Staff DBcs.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T13:24:47.486Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Admin DB.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\Admin DB.cs",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\Admin DB.cs",
               "RelativeDocumentMoniker": "Pharmacy Management System\\Admin DB.cs",
               "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\Admin DB.cs [Design]",
-              "RelativeToolTip": "Pharmacy Management System\\Admin DB.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T19:44:31.506Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Admin DB.cs",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\Admin DB.cs",
-              "RelativeDocumentMoniker": "Pharmacy Management System\\Admin DB.cs",
-              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\Admin DB.cs",
-              "RelativeToolTip": "Pharmacy Management System\\Admin DB.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAArwCoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T14:28:31.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T19:44:31.506Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Admin DB.cs",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\Admin DB.cs",
+              "RelativeDocumentMoniker": "Pharmacy Management System\\Admin DB.cs",
+              "ToolTip": "E:\\New folder\\Projects\\Pharmacy Management System\\Admin DB.cs",
+              "RelativeToolTip": "Pharmacy Management System\\Admin DB.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAArwCoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T14:28:31.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Manager DB.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\Manager DB.cs",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\Manager DB.cs",
               "RelativeDocumentMoniker": "Pharmacy Management System\\Manager DB.cs",
               "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\Manager DB.cs [Design]",
-              "RelativeToolTip": "Pharmacy Management System\\Manager DB.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-31T12:12:37.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MedecineForm.cs",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\MedecineForm.cs",
-              "RelativeDocumentMoniker": "Pharmacy Management System\\MedecineForm.cs",
-              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\MedecineForm.cs",
-              "RelativeToolTip": "Pharmacy Management System\\MedecineForm.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAnwGQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T12:07:51.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MedecineForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\MedecineForm.cs",
-              "RelativeDocumentMoniker": "Pharmacy Management System\\MedecineForm.cs",
-              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\MedecineForm.cs [Design]",
-              "RelativeToolTip": "Pharmacy Management System\\MedecineForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T19:44:25.87Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 12,
               "Title": "db.cs",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\db.cs",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\db.cs",
               "RelativeDocumentMoniker": "Pharmacy Management System\\db.cs",
-              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\db.cs",
+              "ToolTip": "E:\\New folder\\Projects\\Pharmacy Management System\\db.cs",
               "RelativeToolTip": "Pharmacy Management System\\db.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -234,13 +224,14 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "MedecineForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\MedecineForm.Designer.cs",
+              "DocumentMoniker": "E:\\New folder\\Projects\\Pharmacy Management System\\MedecineForm.Designer.cs",
               "RelativeDocumentMoniker": "Pharmacy Management System\\MedecineForm.Designer.cs",
-              "ToolTip": "C:\\Users\\nurea\\OneDrive\\Desktop\\C#\\Projects\\Pharmacy Management System\\MedecineForm.Designer.cs",
+              "ToolTip": "E:\\New folder\\Projects\\Pharmacy Management System\\MedecineForm.Designer.cs",
               "RelativeToolTip": "Pharmacy Management System\\MedecineForm.Designer.cs",
               "ViewState": "AgIAALIAAAAAAAAAAAApwMUAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T12:09:49.597Z"
+              "WhenOpened": "2025-12-31T12:09:49.597Z",
+              "EditorCaption": ""
             }
           ]
         }

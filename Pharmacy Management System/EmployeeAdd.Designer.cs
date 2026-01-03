@@ -39,14 +39,14 @@
             this.lblRole = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtNumber = new System.Windows.Forms.TextBox();
-            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
             this.lblNamber = new System.Windows.Forms.Label();
-            this.lblAddras = new System.Windows.Forms.Label();
+            this.lblemail = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
             this.lblID = new System.Windows.Forms.Label();
             this.dgvAdd = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.lbPassword = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAdd)).BeginInit();
             this.SuspendLayout();
@@ -91,6 +91,7 @@
             this.btnClear.TabIndex = 57;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
+            
             // 
             // btnRefresh
             // 
@@ -183,14 +184,14 @@
             this.txtNumber.Size = new System.Drawing.Size(452, 27);
             this.txtNumber.TabIndex = 48;
             // 
-            // txtAddress
+            // txtEmail
             // 
-            this.txtAddress.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAddress.Location = new System.Drawing.Point(226, 220);
-            this.txtAddress.Margin = new System.Windows.Forms.Padding(4);
-            this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(452, 27);
-            this.txtAddress.TabIndex = 47;
+            this.txtEmail.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Location = new System.Drawing.Point(226, 220);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(452, 27);
+            this.txtEmail.TabIndex = 47;
             // 
             // lblName
             // 
@@ -214,17 +215,17 @@
             this.lblNamber.TabIndex = 45;
             this.lblNamber.Text = "Number";
             // 
-            // lblAddras
+            // lblemail
             // 
-            this.lblAddras.AutoSize = true;
-            this.lblAddras.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAddras.Location = new System.Drawing.Point(31, 227);
-            this.lblAddras.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblAddras.Name = "lblAddras";
-            this.lblAddras.Size = new System.Drawing.Size(65, 20);
-            this.lblAddras.TabIndex = 44;
-            this.lblAddras.Text = "Addras";
-            this.lblAddras.UseMnemonic = false;
+            this.lblemail.AutoSize = true;
+            this.lblemail.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblemail.Location = new System.Drawing.Point(31, 227);
+            this.lblemail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblemail.Name = "lblemail";
+            this.lblemail.Size = new System.Drawing.Size(53, 20);
+            this.lblemail.TabIndex = 44;
+            this.lblemail.Text = "Email";
+            this.lblemail.UseMnemonic = false;
             // 
             // txtID
             // 
@@ -257,14 +258,14 @@
             this.dgvAdd.TabIndex = 60;
             this.dgvAdd.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAdd_CellContentClick);
             // 
-            // textBox1
+            // txtPassword
             // 
-            this.textBox1.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(228, 120);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(452, 27);
-            this.textBox1.TabIndex = 61;
+            this.txtPassword.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(228, 120);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(452, 27);
+            this.txtPassword.TabIndex = 61;
             // 
             // lbPassword
             // 
@@ -284,7 +285,7 @@
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1023, 679);
             this.Controls.Add(this.lbPassword);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.dgvAdd);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnDelete);
@@ -297,14 +298,15 @@
             this.Controls.Add(this.lblRole);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.txtNumber);
-            this.Controls.Add(this.txtAddress);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblNamber);
-            this.Controls.Add(this.lblAddras);
+            this.Controls.Add(this.lblemail);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.lblID);
             this.Name = "EmployeeAdd";
             this.Text = "EmployeeAdd";
+            this.Load += new System.EventHandler(this.EmployeeAdd_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAdd)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -323,14 +325,14 @@
         private System.Windows.Forms.Label lblRole;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtNumber;
-        private System.Windows.Forms.TextBox txtAddress;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label lblNamber;
-        private System.Windows.Forms.Label lblAddras;
+        private System.Windows.Forms.Label lblemail;
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.DataGridView dgvAdd;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label lbPassword;
     }
 }

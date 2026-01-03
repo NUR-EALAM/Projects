@@ -63,3 +63,20 @@ C:\Users\nurea\OneDrive\Desktop\C#\Projects\Pharmacy Management System\obj\Debug
 C:\Users\nurea\OneDrive\Desktop\C#\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.pdb
 C:\Users\nurea\OneDrive\Desktop\C#\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.EmployeeAdd.resources
 C:\Users\nurea\OneDrive\Desktop\C#\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.StaffDasboard.resources
+E:\New folder\Projects\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.config
+E:\New folder\Projects\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe
+E:\New folder\Projects\Pharmacy Management System\bin\Debug\Pharmacy Management System.pdb
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.AssemblyReference.cache
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.exe.config
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.EmployeeAdd.resources
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Dashboard.resources
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.LoginForm.resources
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Manager_DB.resources
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.MedecineForm.resources
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Properties.Resources.resources
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Staff_DBcs.resources
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.StaffDasboard.resources
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.GenerateResource.cache
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.CoreCompileInputs.cache
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.exe
+E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.pdb

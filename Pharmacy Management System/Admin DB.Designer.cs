@@ -102,6 +102,7 @@
             this.butseles.TabIndex = 22;
             this.butseles.Text = "View Sales";
             this.butseles.UseVisualStyleBackColor = false;
+            this.butseles.Click += new System.EventHandler(this.butseles_Click);
             // 
             // Dashboard
             // 

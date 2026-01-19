@@ -1,6 +1,6 @@
 ﻿namespace Pharmacy_Management_System
 {
-    partial class Staff_DBcs
+    partial class StaffDB
     {
         /// <summary>
         /// Required designer variable.
@@ -46,6 +46,7 @@
             this.butSell.TabIndex = 30;
             this.butSell.Text = " Sell Medecine";
             this.butSell.UseVisualStyleBackColor = false;
+            this.butSell.Click += new System.EventHandler(this.butSell_Click);
             // 
             // lblStaff
             // 
@@ -71,6 +72,7 @@
             this.btSales.TabIndex = 28;
             this.btSales.Text = "View Sales";
             this.btSales.UseVisualStyleBackColor = false;
+            this.btSales.Click += new System.EventHandler(this.btSales_Click);
             // 
             // btLogout
             // 
@@ -86,7 +88,7 @@
             this.btLogout.UseVisualStyleBackColor = false;
             this.btLogout.Click += new System.EventHandler(this.btLogout_Click);
             // 
-            // Staff_DBcs
+            // StaffDB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -96,8 +98,9 @@
             this.Controls.Add(this.lblStaff);
             this.Controls.Add(this.btSales);
             this.Controls.Add(this.btLogout);
-            this.Name = "Staff_DBcs";
+            this.Name = "StaffDB";
             this.Text = "Staff_DBcs";
+//            this.Load += new System.EventHandler(this.Staff_DBcs_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

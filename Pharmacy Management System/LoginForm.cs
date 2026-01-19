@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Pharmacy_Management_System
 {
@@ -23,8 +25,23 @@ namespace Pharmacy_Management_System
             string pass = txbPassword.Text;
 
             db newdb = new db();
-            DataRow dr = newdb.read("select * from user_data where name='" + uname + "' and password='" + pass + "'");
+            DataRow dr = newdb.read("select * from user_data where Ename='" + uname + "' and Epassword='" + pass + "'" );
             Console.WriteLine(dr);
+
+            if (dr != null)
+            {
+                // Store role as string
+                string Role = dr["Erole"].ToString();
+                UserHelper.UserRole = Role;  // Assign to UserHelper
+
+                Console.WriteLine("User role: " + Role);
+            }
+            else
+            {
+                MessageBox.Show("No user found", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+
             if (uname == "" || pass == "")
             {
                 MessageBox.Show("Fill the feilds", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -38,6 +55,8 @@ namespace Pharmacy_Management_System
                 MessageBox.Show("Login successful- admin", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
+
+            
             else if (dr != null)
             {
                 this.Visible = false;
@@ -47,10 +66,10 @@ namespace Pharmacy_Management_System
                 MessageBox.Show("Login successful- Manager", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
-            else if( dr != null)
+            else if (dr != null)
             {
                 this.Visible = false;
-                StaffDasboard staffDasboard = new StaffDasboard();
+                StaffDB staffDasboard = new StaffDB();
                 staffDasboard.Visible = true;
                 staffDasboard.Show();
                 MessageBox.Show("Login successful- Staff", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -60,6 +79,11 @@ namespace Pharmacy_Management_System
                 MessageBox.Show("No user Found", "error", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
+
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
 
         }
     }

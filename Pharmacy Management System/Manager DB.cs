@@ -34,5 +34,14 @@ namespace Pharmacy_Management_System
             medecineForm.Show();
             this.Close();
         }
+
+        private void btSales_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            SalesDataForm salesDataForm = new SalesDataForm();
+            salesDataForm.Visible = true;
+            salesDataForm.Show();
+            this.Close();
+        }
     }
 }

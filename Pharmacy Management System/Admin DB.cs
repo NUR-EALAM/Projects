@@ -1,4 +1,5 @@
-﻿using System;
+﻿using demo_project_tutorial;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -49,6 +50,13 @@ namespace Pharmacy_Management_System
             this.Close();
         }
 
-        
+        private void butseles_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            SalesDataForm salesDataForm = new SalesDataForm();  
+            salesDataForm.Visible = true;
+            salesDataForm.Show();
+            this.Close();
+        }
     }
 }

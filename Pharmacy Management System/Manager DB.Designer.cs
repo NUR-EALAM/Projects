@@ -72,6 +72,7 @@
             this.btSales.TabIndex = 24;
             this.btSales.Text = "View Sales";
             this.btSales.UseVisualStyleBackColor = false;
+            this.btSales.Click += new System.EventHandler(this.btSales_Click);
             // 
             // btLogout
             // 

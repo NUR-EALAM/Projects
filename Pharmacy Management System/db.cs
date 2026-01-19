@@ -10,10 +10,11 @@ using System.Windows.Forms;
 
 namespace Pharmacy_Management_System
 {
-    internal class db
+    //internal class db
+    public class db
     {
-        string constring = "Data Source = .\\SQLEXPRESS;Initial Catalog = PharmacyDB; Integrated Security = True; Encrypt=False";
-        //string constring = "Data Source =.\\SQLEXPRESS;Initial Catalog = PharmacyDB; Integrated Security = True;  Encrypt=False";
+        //string constring = "Data Source = .\\SQLEXPRESS;Initial Catalog = PharmacyDB; Integrated Security = True; Encrypt=False";
+        string constring = "Data Source =.\\SQLEXPRESS;Initial Catalog = PharmacyDB; Integrated Security = True;  Encrypt=False";
 
         public DataRow read(string q)
         {

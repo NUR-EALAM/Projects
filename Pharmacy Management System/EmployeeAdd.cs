@@ -360,5 +360,10 @@ namespace Pharmacy_Management_System
                 }
             }
         }
+
+        private void EmployeeAdd_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

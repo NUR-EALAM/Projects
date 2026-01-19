@@ -322,6 +322,7 @@
             this.Controls.Add(this.lblID);
             this.Name = "EmployeeAdd";
             this.Text = "EmployeeAdd";
+            this.Load += new System.EventHandler(this.EmployeeAdd_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAdd)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

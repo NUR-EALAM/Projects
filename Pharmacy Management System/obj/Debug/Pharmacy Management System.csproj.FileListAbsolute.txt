@@ -80,3 +80,21 @@ E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management 
 E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.CoreCompileInputs.cache
 E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.exe
 E:\New folder\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.pdb
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.config
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\bin\Debug\Pharmacy Management System.pdb
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.AssemblyReference.cache
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.exe.config
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.EmployeeAdd.resources
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Dashboard.resources
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.LoginForm.resources
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Manager_DB.resources
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.MedecineForm.resources
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Properties.Resources.resources
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.GenerateResource.cache
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.CoreCompileInputs.cache
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.exe
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy Management System.pdb
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.SalesDataForm.resources
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.StaffDB.resources
+C:\Users\nurea\OneDrive\Desktop\C#\Project\Projects\Pharmacy Management System\obj\Debug\demo_project_tutorial.SalesPageForm.resources
